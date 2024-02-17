@@ -1,3 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap")
+  @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: cinzel;
+  src: url("Cinzel_Decorative/CinzelDecorative-Regular.ttf");
+}
+
+body {
+  font-family: cinzel;
+  margin: 0;
+}
+
+/* 
+@layer base {
+  html {
+    @apply text-2xl;
+  }
+  h2 {
+    @apply text-xl;
+  }
+} */
+
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

@@ -1,9 +1,14 @@
 import "./App.css";
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
+import Homepage from "./wrapper/Homepage";
 
 function App() {
   return (
     <>
-      <h1>Hello</h1>
+      <Navbar />
+      <Homepage />
+      <Footer />
     </>
   );
 }
