@@ -2,7 +2,7 @@ const ServicesSection = () => {
   return (
     <section className="w-3/5 mx-auto">
       <h2 className="py-8 text-5xl md:text-7xl text-center">Our Programs</h2>
-      <div className="grid grid-cols-2 gap-12 mb-40">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-40">
         <div className=" h-[450px] border-2 border-gray-600 shadow-xl rounded-xl bg-[url('/src/assets/bookshelf.jpeg')] bg-cover bg-center flex flex-col justify-end text-white  hover:scale-110 cursor-pointer">
           <div className="bg-black/45 px-4">
             <h3 className="text-xl lg:text-2xl">Weekly Ta'aleem'</h3>

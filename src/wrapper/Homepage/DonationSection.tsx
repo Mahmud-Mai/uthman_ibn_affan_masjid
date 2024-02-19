@@ -3,8 +3,8 @@ import Rearview from "../../assets/rearview.jpeg";
 
 const DonationSection = () => {
   return (
-    <section className="py-20 bg-[#f3f3f3]">
-      <div className="mx-auto w-4/5 grid grid-cols-2">
+    <section className="py-20 bg-[#f3f3f3] bg-[url('../../assets/floral_background.png')]">
+      <div className="mx-auto w-4/5 grid lg:grid-cols-2">
         <div className="flex items-center">
           <div className="px-5">
             <h2 className="text-5xl">Support Our Cause</h2>
@@ -23,7 +23,7 @@ const DonationSection = () => {
           <img
             src={Rearview}
             alt="swoosh"
-            width={700}
+            width={"100%"}
           />
         </div>
       </div>

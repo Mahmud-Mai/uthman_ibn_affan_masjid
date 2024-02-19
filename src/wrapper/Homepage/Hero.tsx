@@ -3,8 +3,8 @@ import Swoosh from "../../assets/deco-symbol-swoosh.png";
 const Hero = () => {
   return (
     <section className="bg-[url('/src/assets/masjid_main.jpeg')] bg-fixed bg-no-repeat bg-bottom h-[85vh] flex items-center justify-center text-white">
-      <div className="text-center justify-center bg-black/30 p-4">
-        <h1 className="text-[3em] capitalize leading-[4rem] tracking-wider">
+      <div className="text-center justify-center bg-black/30 p-2 lg:p-4">
+        <h1 className="text-2xl text-[3em] lg:text-[3em] capitalize leading-[4rem] tracking-wider">
           Welcome to <br />
           Uthman bin Affan Mosque
         </h1>
