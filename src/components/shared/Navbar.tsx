@@ -1,7 +1,9 @@
+import PrimaryBtn from "../ui/PrimaryBtn";
+
 const Navbar = () => {
   return (
-    <section className="relative">
-      <div className="mx-auto w-4/5 sticky flex justify-between items-center px-2 py-3 bg-white border">
+    <section className="fixed w-full bg-white ">
+      <div className="mx-auto w-4/5  flex justify-between items-center px-2 py-3 bg-white border">
         <p className="logo">Uthman bin Affan Mosque</p>
         <p className="flex space-x-6 items-center">
           <ul className="flex space-x-6 font-light text-md uppercase">
@@ -11,9 +13,7 @@ const Navbar = () => {
             <li className="cursor-pointer">Resources</li>
             <li className="cursor-pointer">Contact</li>
           </ul>
-          <button className="bg-[#baa769] text-white p-4 text-lg rounded-xl shadow-2xl">
-            Donate
-          </button>
+          <PrimaryBtn />
         </p>
       </div>
     </section>
