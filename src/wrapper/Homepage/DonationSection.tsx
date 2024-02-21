@@ -3,7 +3,7 @@ import Rearview from "../../assets/rearview.jpeg";
 
 const DonationSection = () => {
   return (
-    <section className="py-20 bg-[#f3f3f3] bg-[url('../../assets/floral_background.png')]">
+    <section className="py-20 bg-[#f3f3f3] bg-[url('/src/assets/floral_background')]">
       <div className="mx-auto w-4/5 grid lg:grid-cols-2">
         <div className="flex items-center">
           <div className="px-5">
