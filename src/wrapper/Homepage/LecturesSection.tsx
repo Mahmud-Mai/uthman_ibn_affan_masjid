@@ -56,7 +56,7 @@ const LecturesSection = () => {
           {/* Video Tag ebd */}
         </div>
         <div className="flex items-center justify-center w-[30rem] mx-auto my-16 py-8">
-          <button className="bg-[#baa769] w-full text-white p-4 text-lg rounded-xl shadow-2xl border-none">
+          <button className="bg-[#baa769] text-white py-4 px-8 text-lg rounded-full shadow-2xl border-none">
             See More
           </button>
         </div>

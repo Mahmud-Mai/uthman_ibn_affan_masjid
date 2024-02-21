@@ -1,3 +1,5 @@
+import PrimaryBtn from "../ui/PrimaryBtn";
+
 const Navbar = () => {
   return (
     <section className="fixed w-full bg-white ">
@@ -11,9 +13,7 @@ const Navbar = () => {
             <li className="cursor-pointer">Resources</li>
             <li className="cursor-pointer">Contact</li>
           </ul>
-          <button className="bg-[#baa769] border-none text-white p-4 text-lg rounded-xl shadow-2xl">
-            Donate
-          </button>
+          <PrimaryBtn />
         </p>
       </div>
     </section>
